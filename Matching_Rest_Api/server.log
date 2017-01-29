@@ -1,0 +1,90 @@
+"POST /match/ HTTP/1.1" 200 8340
+"POST /match/ HTTP/1.1" 200 8340
+"POST /match/ HTTP/1.1" 200 8340
+"POST /match/ HTTP/1.1" 200 8327
+"POST /match/ HTTP/1.1" 200 8327
+"GET /match/ HTTP/1.1" 405 8270
+"POST /match/ HTTP/1.1" 200 8328
+"POST /match/ HTTP/1.1" 200 8352
+"POST /match/ HTTP/1.1" 200 8352
+"POST /match/ HTTP/1.1" 200 8352
+"POST /match/ HTTP/1.1" 200 8352
+Internal Server Error: /match/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 477, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 437, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 474, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shalu/Matching_Rest_Api/matching/views.py", line 21, in post
+    response = ap_data.extract_values()
+  File "/home/shalu/Matching_Rest_Api/matching/utils.py", line 85, in extract_values
+    self.output= self.match(self.name1, self.name2,self.output)
+  File "/home/shalu/Matching_Rest_Api/matching/utils.py", line 154, in match
+    return self.mix_match(complete_name1, complete_name2,output,nametype="names")
+  File "/home/shalu/Matching_Rest_Api/matching/utils.py", line 101, in mix_match
+    logging.info("the fuzzy % matching is %d"%(pct))
+ValueError: unsupported format character 'm' (0x6d) at index 12
+"POST /match/ HTTP/1.1" 500 108063
+"POST /match/ HTTP/1.1" 200 8342
+"POST /match/ HTTP/1.1" 200 8342
+"POST /match/ HTTP/1.1" 200 8329
+"POST /match/ HTTP/1.1" 200 8334
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8369
+"POST /match/ HTTP/1.1" 200 8335
+"POST /match/ HTTP/1.1" 200 8335
+"POST /match/ HTTP/1.1" 200 8335
+"POST /match/ HTTP/1.1" 200 8335
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8364
+"POST /match/ HTTP/1.1" 200 8356
+"POST /match/ HTTP/1.1" 200 8336
+"POST /match/ HTTP/1.1" 200 8342
+"POST /match/ HTTP/1.1" 200 8336
+"POST /match/ HTTP/1.1" 200 8336
+"GET /match HTTP/1.1" 301 0
+"GET /match/ HTTP/1.1" 405 8270
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+"GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 2876
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /match/ HTTP/1.1" 405 8270
+"POST /match/ HTTP/1.1" 200 8323
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8333
+"POST /match/ HTTP/1.1" 200 8327
+"POST /match/ HTTP/1.1" 200 8327
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8347
+"POST /match/ HTTP/1.1" 200 8342
+"POST /match/ HTTP/1.1" 200 8342
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8374
+"POST /match/ HTTP/1.1" 200 8341
+"POST /match/ HTTP/1.1" 200 8327
